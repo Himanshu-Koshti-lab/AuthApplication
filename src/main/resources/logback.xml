@@ -10,7 +10,7 @@
         <file>./logs/AuthApplication.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- daily rollover -->
-            <fileNamePattern>AuthApplication.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>./logs/AuthApplication.%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>15</maxHistory>
             <totalSizeCap>3MB</totalSizeCap>
 
